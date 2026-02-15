@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 
 export default function Hero() {
   const [text, setText] = useState('');
-  const fullText = 'Software Developer';
+  const fullText = 'Software Developer | Full Stack(MERN) Developer';
   const [isTyping, setIsTyping] = useState(true);
 
   useEffect(() => {
