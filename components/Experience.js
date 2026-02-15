@@ -4,16 +4,17 @@ export default function Experience() {
   const experiences = [
     {
       role: 'Frontend Developer Intern',
-      company: 'AICTE - IBM',
-      location: 'online',
-      period: 'August 2025 - September 2025',
+      company: 'AICTE IBM',
+      location: 'Online',
+      period: 'Aug 2025 - Sep 2025',
       description: [
-        'Developed responsive web applications using HTML, CSS, and JavaScript',
-        'Implemented modern UI/UX designs with a focus on user experience',
-        'Applied best practices in web development and software engineering'
+        'Built a responsive and user-friendly interface for the course platform',
+        'Implemented modern UI/UX design principles using React.js and Tailwind CSS',
+        'Optimized component-based architecture for better performance and reusability',
+        'Integrated frontend with backend APIs to display course data and user information'
       ],
       icon: '💻',
-      color: 'blue'
+      color: 'indigo'
     },
     {
       role: 'Data Engineering Intern',
@@ -56,6 +57,7 @@ export default function Experience() {
         </p>
         
         <div className="relative">
+          {/* Timeline line */}
           <div className="absolute left-8 md:left-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-indigo-600 to-purple-600"></div>
 
           <div className="space-y-12">
@@ -66,6 +68,7 @@ export default function Experience() {
                   index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
                 }`}
               >
+                {/* Timeline dot */}
                 <div className="absolute left-8 md:left-1/2 w-4 h-4 bg-indigo-600 rounded-full border-4 border-gray-900 transform -translate-x-1/2 animate-glow"></div>
 
                 {/* Content */}

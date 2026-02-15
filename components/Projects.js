@@ -13,8 +13,8 @@ export default function Projects() {
         'Production deployment with CORS configuration'
       ],
       icon: '📚',
-      github: 'https://github.com/Nishanth2173/Mini_Course_App.git', 
-      live: null
+      github: 'https://github.com/Nishanth2173/Mini_Course_App', 
+      live: null 
     },
     {
       title: 'Cardiovascular Disease Prediction',
@@ -26,8 +26,8 @@ export default function Projects() {
         'Model training and optimization'
       ],
       icon: '❤️',
-      github: 'https://github.com/Nishanth2173/Cardio-Vascular-Disease-Prediction.git',
-      live: null
+      github: 'https://github.com/Nishanth2173/Cardio-Vascular-Disease-Prediction', 
+      live: null, 
     },
     {
       title: 'Student LMS Portal',
@@ -39,7 +39,7 @@ export default function Projects() {
         'Frontend data management with JSON'
       ],
       icon: '🎓',
-      github: 'https://github.com/Nishanth2173/Student-LMS.git', 
+      github: 'https://github.com/Nishanth2173/Student-LMS', 
       live: null
     },
     {
@@ -52,13 +52,13 @@ export default function Projects() {
         'Responsive design'
       ],
       icon: '🌤️',
-      github: 'https://github.com/Nishanth2173/Dynamic-Weather-Dashboard-IBM.git', 
-      live: 'https://nishanth2173.github.io/Dynamic-Weather-Dashboard-IBM/',
+      github: 'https://github.com/Nishanth2173/Dynamic-Weather-Dashboard-IBM', 
+      live: 'https://nishanth2173.github.io/Dynamic-Weather-Dashboard-IBM/'
     },
     {
       title: 'Smart Bookmark App',
-      description: 'Responsive desgin with google OAuth login, to save the bookmarks of websites with title+URL',
-      technologies: ['Next.js', 'Tailwind CSS', 'JavaScript', 'Google OAuth','Supabase','Vercel'],
+      description: 'Modern, responsive portfolio showcasing projects and skills with smooth animations.',
+      technologies: ['Next.js', 'Tailwind CSS', 'JavaScript', 'Vercel', 'Supabase', 'Google OAuth'],
       highlights: [
         'Modular Next.js components',
         'Smooth animations and interactions',
@@ -66,7 +66,7 @@ export default function Projects() {
         'Optimized performance'
       ],
       icon: '💼',
-      github: 'https://github.com/Nishanth2173/Smart-Bookmark-App.git', 
+      github: 'https://github.com/Nishanth2173/Smart-Bookmark-App', 
       live: 'https://smart-bookmark-app-six-rust.vercel.app/', 
     }
   ];

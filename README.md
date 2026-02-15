@@ -10,6 +10,8 @@ A modern, animated portfolio website built with Next.js 14, Tailwind CSS, and sm
 - **Performance**: Optimized components and lazy loading
 - **SEO**: Proper metadata and semantic HTML
 - **Responsive**: Mobile-first design approach
+- **Favicons**: Complete icon support for all devices and browsers
+- **PWA Ready**: Web app manifest included
 
 ## 📋 Prerequisites
 

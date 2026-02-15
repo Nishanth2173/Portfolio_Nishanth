@@ -13,7 +13,7 @@ export default function About() {
             <div className="glass rounded-2xl p-8 card-hover">
               <h3 className="text-2xl font-bold mb-4 text-indigo-400">Who I Am</h3>
               <p className="text-gray-300 leading-relaxed">
-                I'm an aspiring Software Developer with a strong foundation in web technologies and a passion for continuous learning. 
+                I&apos;m an aspiring Software Developer with a strong foundation in web technologies and a passion for continuous learning. 
                 Currently pursuing Computer Science and Engineering with specialization in AI & ML at Gitam University.
               </p>
             </div>

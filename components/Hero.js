@@ -31,7 +31,7 @@ export default function Hero() {
           {/* Left side - Text content */}
           <div className="animate-fade-in text-center md:text-left">
             <h2 className="text-lg md:text-xl text-indigo-400 mb-4 font-medium tracking-wide">
-              Hi, I'm
+              Hi, I&apos;m
             </h2>
             <h1 className="text-5xl md:text-7xl font-bold mb-6 gradient-text animate-slide-up">
               Nishanth Nuthi
@@ -63,24 +63,22 @@ export default function Hero() {
             </div>
           </div>
 
+          {/* Right side - Image */}
           <div className="flex justify-center items-center animate-fade-in stagger-2">
             <div className="relative">
+              {/* Glow effect behind image */}
               <div className="absolute inset-0 bg-indigo-600/30 rounded-full blur-3xl animate-glow"></div>
               
+              {/* Image container */}
               <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96">
-                <div className="w-auto h-15 rounded-b-full overflow-hidden border-4 border-indigo-500/50 shadow-2xl shadow-indigo-500/50 card-hover">
+                {/* Replace '/profile.jpg' with your actual image path */}
+                <div className="w-full rounded-b-full overflow-hidden border-4 border-indigo-500/50 shadow-2xl shadow-indigo-500/50 card-hover">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src="/Nishanth.jpg"
                     alt="Nishanth Nuthi"
                     className="w-full h-full object-cover"
-                    onError={(e) => {
-                      e.target.style.display = 'none';
-                      e.target.nextElementSibling.style.display = 'flex';
-                    }}
                   />
-                  <div className="w-full h-full bg-gradient-to-br from-indigo-600 to-purple-600 items-center justify-center hidden">
-                    <span className="text-8xl font-bold text-white">N</span>
-                  </div>
                 </div>
               </div>
 
