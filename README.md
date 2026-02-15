@@ -131,14 +131,6 @@ Fully responsive design that works on:
 - Tablet (768px - 1024px)
 - Mobile (320px - 768px)
 
-## 🤝 Contributing
-
-Feel free to fork this project and customize it for your own portfolio!
-
-## 📄 License
-
-MIT License - feel free to use this project for your portfolio.
-
 ## 📧 Contact
 
 **Nishanth Nuthi**
