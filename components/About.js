@@ -33,7 +33,7 @@ export default function About() {
               <p className="text-gray-400">Projects Completed</p>
             </div>
             <div className="glass rounded-xl p-6 text-center card-hover">
-              <div className="text-4xl font-bold gradient-text mb-2">2</div>
+              <div className="text-4xl font-bold gradient-text mb-2">3</div>
               <p className="text-gray-400">Internships</p>
             </div>
             <div className="glass rounded-xl p-6 text-center card-hover">
