@@ -27,9 +27,7 @@ export default function Hero() {
       <div className="particle-bg"></div>
       
       <div className="container mx-auto px-6 z-10">
-        {/* Mobile-first centered layout */}
         <div className="flex flex-col items-center text-center">
-          {/* Text content */}
           <div className="animate-fade-in mb-12 max-w-4xl w-full">
             <h2 className="text-base md:text-lg lg:text-xl text-indigo-400 mb-3 font-medium tracking-wide">
               Hi, I&apos;m
@@ -51,7 +49,6 @@ export default function Hero() {
               Passionate about building scalable solutions and learning new technologies.
             </p>
             
-            {/* Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center stagger-4 animate-slide-up mb-12 px-4">
               
                 href="#projects"
@@ -68,13 +65,10 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Image - Below buttons on mobile */}
           <div className="flex justify-center items-center animate-fade-in stagger-2 w-full">
             <div className="relative">
-              {/* Glow effect behind image */}
               <div className="absolute inset-0 bg-indigo-600/30 rounded-full blur-3xl animate-glow"></div>
               
-              {/* Image container */}
               <div className="relative w-72 h-72 md:w-80 md:h-80 lg:w-96 lg:h-96">
                 <div className="w-full h-full rounded-2xl overflow-hidden border-4 border-indigo-500/50 shadow-2xl shadow-indigo-500/50 card-hover">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -86,7 +80,6 @@ export default function Hero() {
                 </div>
               </div>
 
-              {/* Decorative elements */}
               <div className="absolute -top-4 -right-4 w-20 h-20 bg-purple-500/20 rounded-full blur-xl animate-float"></div>
               <div className="absolute -bottom-4 -left-4 w-24 h-24 bg-indigo-500/20 rounded-full blur-xl animate-float" style={{ animationDelay: '1s' }}></div>
             </div>
@@ -94,7 +87,6 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Scroll indicator */}
       <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce hidden md:block">
         <svg className="w-6 h-6 text-indigo-400" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
           <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
