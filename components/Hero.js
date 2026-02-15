@@ -55,7 +55,7 @@ export default function Hero() {
             <div className="relative">
               <div className="absolute inset-0 bg-indigo-600/30 rounded-full blur-3xl animate-glow"></div>
               <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96">
-                <div className="w-full h-full rounded-2xl md:rounded-full overflow-hidden border-4 border-indigo-500/50 shadow-2xl shadow-indigo-500/50 card-hover">
+                <div className="w-full rounded-b-full overflow-hidden border-4 border-indigo-500/50 shadow-2xl shadow-indigo-500/50 card-hover">
                   <img src="/Nishanth.jpg" alt="Nishanth Nuthi" className="w-full h-full object-cover" />
                 </div>
               </div>
