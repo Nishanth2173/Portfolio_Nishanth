@@ -57,7 +57,7 @@ export default function Projects() {
     },
     {
       title: 'Smart Bookmark App',
-      description: 'Modern, responsive portfolio showcasing projects and skills with smooth animations.',
+      description: 'Modern, responsive Bookmark showcasing sites and titles with smooth animations.',
       technologies: ['Next.js', 'Tailwind CSS', 'JavaScript', 'Vercel', 'Supabase', 'Google OAuth'],
       highlights: [
         'Modular Next.js components',
@@ -68,6 +68,19 @@ export default function Projects() {
       icon: '💼',
       github: 'https://github.com/Nishanth2173/Smart-Bookmark-App', 
       live: 'https://smart-bookmark-app-six-rust.vercel.app/', 
+    },
+    {
+      title: 'Assert Management',
+      description: 'Assert Management is a web application that helps users to manage their assets. It provides a platform to track and manage assets, as well as to generate reports and analytics.',
+      technologies: ['React.js', 'Tailwind css', 'Node.js', 'MongoDB'],
+      highlights: [
+        'Assigning assert to the employess with assign date.',
+        'Generating reports and analytics.',
+        'Creating Employees and Assets.'
+      ],
+      icon: '💼',
+      github: null,
+      live: null
     }
   ];
 
