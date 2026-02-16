@@ -14,7 +14,7 @@ export default function Projects() {
       ],
       icon: '📚',
       github: 'https://github.com/Nishanth2173/Mini_Course_App', 
-      live: null 
+      live: 'https://mini-course-app-gamma.vercel.app'
     },
     {
       title: 'Cardiovascular Disease Prediction',
