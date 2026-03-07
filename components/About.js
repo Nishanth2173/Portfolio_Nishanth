@@ -14,7 +14,7 @@ export default function About() {
               <h3 className="text-2xl font-bold mb-4 text-indigo-400">Who I Am</h3>
               <p className="text-gray-300 leading-relaxed">
                 I&apos;m an aspiring Software Developer with a strong foundation in web technologies and a passion for continuous learning. 
-                recently complted Computer Science and Engineering with specialization in AI & ML at Gitam University Hyderabad.
+                Recently completed Computer Science and Engineering with specialization in AI & ML at Gitam University Hyderabad.
               </p>
             </div>
 
