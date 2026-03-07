@@ -1,5 +1,7 @@
 'use client';
 
+import { title } from "process";
+
 export default function Projects() {
   const projects = [
     {
@@ -80,6 +82,34 @@ export default function Projects() {
       ],
       icon: '💼',
       github: null,
+      live: null
+    },
+    {
+      title: 'Time Vault',
+      description: 'Time vault is a web applications that helps user to schedule and send message in the format of text, pdf or any format. It will reach the receiver at a scheduled time without any delay.',
+      technologies: ['Next.js','Tailwind css','SupaBase','Google OAuth'],
+      highlights:[
+        'Developed and deployed a full stack web application using Next.js, Supabase, and PostgreSQL with rolebased authentication, row-level security, and real-time database integration.',
+        'Architected and implemented a scheduled job delivery system using Inngest and Resend API, enabling timelocked email automation with retry logic and error handling.',
+        'Built RESTful APIs with Next.js App Router including protected server-side routes, OAuth 2.0 authentication via Supabase Auth, and third-party API integration.',
+        'Designed and deployed a responsive, production-ready UI using Next.js, Tailwind CSS, and Vercel with component-based architecture and optimized performance' 
+      ],
+      icon: '⏳',
+      github:'https://github.com/Nishanth2173/timevault',
+      live: null
+    },
+    {
+      title: 'Skill Battle Arena',
+      description: 'Skill Battle Arena is a full-stack developer competition platform. Players solve real-world backend, frontend, and database challenges in timed battles — either solo, 1v1 against other developers, or in organized tournaments. An AI Bot auto-joins if no opponent is found within 30 seconds, so there is never a dead lobby.',
+      technologies: ['Next.js','Node.js','Express.js','MongoDB','Scoket.io','jwt validator','Tailwind css'],
+      highlights:[
+        'Built a real-time 1v1 developer battle platform using Node.js, Express, MongoDB, Socket.io, and Next.js 14 with JWT authentication and sandboxed code execution.',
+        'Implemented an AI Bot opponent system that auto-joins live coding battles with 3 difficulty tiers, realistic progress simulation, and heuristic code evaluation.',
+        'Designed an XP ranking engine with 5 tiers (Bronze–Diamond), win streaks, automated badge rewards, and a real-time global leaderboard using MongoDB aggregation.',
+        'Built a role-based Admin Dashboard with full CRUD for challenges, tournaments, and user management including live platform analytics and prize pool configuration.'
+      ],
+      icon:'⚔️',
+      github:'https://github.com/Nishanth2173/skill-battle-arena',
       live: null
     }
   ];
