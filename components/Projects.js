@@ -111,6 +111,20 @@ export default function Projects() {
       icon:'⚔️',
       github:'https://github.com/Nishanth2173/skill-battle-arena',
       live: null
+    },
+    {
+      title:'LearNova-Course Platfrom',
+      description:'LearNova is a modern, full-stack online learning platform designed to provide a seamless educational experience. It allows students to discover, enroll in, and track their progress through various courses, while empowering administrators and instructors to manage course content, monitor student enrollments, and track overall platform revenue.',
+      technologies:['React.js',' Node.js', 'Express.js', 'MongoDB', 'JWT', 'Razorpay', 'Tailwind CSS', 'Framer Motion', 'Three.js'],
+      highlights:[
+       ' Built a full-stack online course platform with React.js and Node.js/Express.js, implementing JWT authentication, bcrypt password hashing, and role-based access control for Student and Admin roles.',
+       'Integrated Razorpay payment gateway with order creation, HMAC-SHA256 payment verification, and automated email notifications via Nodemailer on registration and enrollment.',
+       'Developed an Admin Panel with full CRUD for courses, modules and lessons, plus an LMS with video playback, lesson tracking and real-time progress percentage in MongoDB',
+       'Designed a responsive UI using Tailwind CSS, Framer Motion animations and Three.js particle effects with dynamic search, filtering, pagination and student progress dashboard'
+      ],
+      icon:'🎓',
+      github:'https://github.com/Nishanth2173/synent-task8-onlinecourseplatform-Nishanth',
+      live:'https://lear-nova-blush.vercel.app/'
     }
   ];
 
