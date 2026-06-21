@@ -125,6 +125,33 @@ export default function Projects() {
       icon:'🎓',
       github:'https://github.com/Nishanth2173/synent-task8-onlinecourseplatform-Nishanth',
       live:'https://lear-nova-blush.vercel.app/'
+    },
+    {
+      title: 'Aeroflow Flight',
+      description: 'A production-grade, fully responsive Flight Management Web App where passengers can search flights, select seats interactively, book with Razorpay payments, reschedule, and cancel — with real-time seat updates powered by Supabase Realtime.',
+      technologies: ['Next.js', 'Supabase - PostgreSQL', 'Tailwind CSS', 'Razorpay', 'Framer Motion', 'Vercel'],
+      highlights: [
+        'Real-time flight search and dynamic seat selection with interactive cabin maps.',
+        'Razorpay integration for secure payment and instant booking confirmation.',
+        'Reschedule and cancellation workflows with live seat inventory updates.',
+        'Responsive UI built with Next.js and Tailwind CSS for desktop and mobile.'
+      ],
+      icon:'✈️',
+      github:'https://github.com/Nishanth2173/aeroflow-flight',
+      live:'https://aeroflow-flight.vercel.app/'
+    },
+    {
+      title:'Rent Manager',
+      description:'A full-stack web application for managing rental properties, tenants, and payments with real-time notifications and analytics.',
+      technologies:['Next.js','Tailwind CSS','Supabase-postgreSQL','vercel','Framer Motion'],
+      highlights: [
+        'Full-stack development using Next.js and Node.js.',
+        'Real-time notifications for rental updates and payments.',
+        'Analytics dashboard for property management insights.'
+      ],
+      icon:'🏠',
+      github:'https://github.com/Nishanth2173/Rent-manager',
+      live:'https://rent-manager-pearl.vercel.app/'
     }
   ];
 
